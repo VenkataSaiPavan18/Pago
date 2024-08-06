@@ -1,0 +1,106 @@
+Center the content
+.video-player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+background-color: ' #50d8d7';
+    background-image: 'radial-gradient(circle, #4A90E2, #192F5D)',
+   
+
+  }
+  
+  /* Style the content container */
+  @media (max-width: 768px)  {
+    .vidocontainer{
+        color: wheat;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+  }
+  
+  @media (min-width: 768px)  {
+    .vidocontainer{
+        color: wheat;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      
+  }
+  
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    .form-group {
+      width: 100%;
+    }
+  }
+  
+
+ 
+
+  /* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .mainpage1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .mainpage1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+            
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+  .mainpage1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) {
+  .mainpage1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+  } 
+}

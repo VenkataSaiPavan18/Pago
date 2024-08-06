@@ -1,0 +1,6 @@
+.titlename1{
+  background: linear-gradient(to right, #f32170,  #cf23cf,
+  #325ca8, #cf23cf, #325ca8, #cf23cf); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
